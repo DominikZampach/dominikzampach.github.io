@@ -1,0 +1,29 @@
+body {
+    padding-top: 5em;
+    background-image: url("/img/background_pattern_rozbiju_to.svg");
+    background-repeat: no-repeat;
+    background-color: #FF8C2E;
+    background-size: cover;
+}
+p {
+    color: #141E46;
+    margin: 0.8em;
+}
+.nav-link, #btn-kontakt {
+    color: #FFF5E0;
+    font-size: 1.7em;
+}
+
+.navbar {
+    padding: 0;
+}
+
+#navbar-bg {
+    background-color: #FF6969;
+    
+}
+
+#btn-kontakt {
+    background-color: #6A001E;
+    text-align: center;
+}
