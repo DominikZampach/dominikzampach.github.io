@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="-486.4052 -145.9863 2354.3153 4896.8184" width="2354.315" height="4896.818" xmlns="http://www.w3.org/2000/svg">
-  <g id="BACKGROUND" style="opacity: 0.45; transform-origin: 375px 250px;" transform="matrix(0, -5.559222221375, 3.413634061813, 0, 319.360247163526, 2058.549610413844)">
+<svg viewBox="-2511.3219 -200.2806 3413.8888 4071.0647" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="contrast-filter-0" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%" bx:preset="contrast 1 2">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="2" intercept="-0.5"/>
+        <feFuncG type="linear" slope="2" intercept="-0.5"/>
+        <feFuncB type="linear" slope="2" intercept="-0.5"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <g id="BACKGROUND" style="opacity: 0.5; transform-origin: 375px 250px;" transform="matrix(0, -4.608530044556, 4.949960231781, 0.016906000674, -1179.377023323996, 1585.251804984964)">
     <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="250" x2="750" y2="250">
       <stop offset="0" style="stop-color:#FF8C2E"/>
       <stop offset="0.308" style="stop-color:#FFA135"/>
@@ -9,8 +18,8 @@
     </linearGradient>
     <rect style="fill:url(#SVGID_1_);" width="750" height="500"/>
   </g>
-  <g id="OBJECTS" style="opacity: 0.45; transform-origin: 375px 250px;" transform="matrix(0, -5.559222221375, 3.413634061813, 0, 315.752397934911, 2052.422487452248)">
-    <g style="">
+  <g id="OBJECTS" style="filter: url('#contrast-filter-0'); opacity: 0.5; transform-origin: 375px 250px;" transform="matrix(0, -4.608530044556, 4.949960231781, 0.016906000674, -1179.377587135659, 1585.251575845156)">
+    <g>
       <defs>
         <rect id="SVGID_00000134217658113655712940000010637179553797539203_" width="750" height="500"/>
       </defs>
