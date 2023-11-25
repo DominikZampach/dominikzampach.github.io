@@ -1,18 +1,65 @@
+@font-face {
+    font-family: ChakraPetch-Regular;
+    src: url(/styles/fonts/ChakraPetch-Regular.ttf);
+}
+@font-face {
+    font-family: ChakraPetch-Bold;
+    src: url(/styles/fonts/ChakraPetch-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: ChakraPetch-Italic;
+    src: url(/styles/fonts/ChakraPetch-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: ChakraPetch-Light;
+    src: url(/styles/fonts/ChakraPetch-Light.ttf);
+}
 body {
     padding-top: 5em;
     background: url("/img/background_pattern_for_testing.svg") no-repeat;
     background-color: #FF8C2E;
-    width: min-content;
-    height: max-content;
+    max-width: 100%;
+    color: #141E46;
     background-size: cover;
     scroll-behavior: smooth;
+    font-family: ChakraPetch-Regular;
+}
+#popisek {
+    text-align: center;
+    margin-top: 4.5vw;
+    padding-right: 5vw;
+    font-size: 4em;
+    font-family: ChakraPetch-Italic;
+    opacity: 65%;
+    margin-bottom: 0;
+}
+#jmeno {
+    text-align: center;
+    font-size: 7em;
+    font-family: ChakraPetch-Bold;
+}
+#citat{
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+#autor-citatu {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 2em;
+}
+.page-layout {
+    height: 100vh;
 }
 p {
-    color: #141E46;
     margin: 0.8em;
+    font-size: 1.5em;
 }
 .nav-link, #btn-kontakt {
-    color: #FFF5E0;
+    color: #141E46;
     font-size: 1.7em;
 }
 
@@ -21,11 +68,11 @@ p {
 }
 
 #navbar-bg {
-    background-color: #FF6969;
-    
+    background-color: #F2A668;
 }
 
 #btn-kontakt {
+    color: #FFF5E0;
     background-color: #6A001E;
     text-align: center;
 }
