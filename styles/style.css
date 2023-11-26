@@ -26,7 +26,7 @@ body {
     scroll-behavior: smooth;
     font-family: ChakraPetch-Regular;
 }
-#popisek {
+.popisek {
     text-align: center;
     margin-top: 4.5vw;
     padding-right: 5vw;
@@ -74,5 +74,11 @@ p {
 #btn-kontakt {
     color: #FFF5E0;
     background-color: #6A001E;
+    text-align: center;
+}
+#omne {
+    margin-left: 0.15em;
+    font-size: 5em;
+    font-family: ChakraPetch-Italic;
     text-align: center;
 }
