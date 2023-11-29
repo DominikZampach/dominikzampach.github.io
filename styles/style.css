@@ -69,7 +69,7 @@ p {
 }
 
 #navbar-bg {
-    background-color: #F2A668;
+    background-color: #ffa866;
 }
 
 #btn-kontakt {
@@ -85,4 +85,13 @@ h2 {
 }
 #foto {
     max-height: 80vh
+}
+.nav-link{
+    color: #141E46;;
+}
+.nav-link.active{
+    text-decoration:underline;
+    text-decoration-color: #141E46;
+    font-family: ChakraPetch-Regular;
+    color: #141E46;
 }
