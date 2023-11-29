@@ -57,6 +57,7 @@ body {
 p {
     margin: 0.8em;
     font-size: 1.5em;
+    text-align: center;
 }
 .nav-link, #btn-kontakt {
     color: #141E46;
@@ -76,9 +77,12 @@ p {
     background-color: #6A001E;
     text-align: center;
 }
-#omne {
+h2 {
     margin-left: 0.15em;
     font-size: 5em;
     font-family: ChakraPetch-Italic;
     text-align: center;
+}
+#foto {
+    max-height: 80vh
 }
