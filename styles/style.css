@@ -76,6 +76,14 @@ p {
     color: #FFF5E0;
     background-color: #6A001E;
     text-align: center;
+    border: none;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+}
+#btn-kontakt:hover {
+    background-color: #ffa866;
+    border: 1px solid #6A001E;
+    color: #141E46;
 }
 h2 {
     margin-left: 0.15em;
@@ -84,14 +92,15 @@ h2 {
     text-align: center;
 }
 #foto {
-    max-height: 80vh
+    max-height: 80vh;
+    align-items: center;
 }
 .nav-link{
     color: #141E46;;
 }
 .nav-link.active{
+    color: #141E46;
     text-decoration:underline;
     text-decoration-color: #141E46;
-    font-family: ChakraPetch-Regular;
-    color: #141E46;
+    font-weight: 600;
 }
