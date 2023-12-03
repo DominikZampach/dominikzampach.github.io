@@ -29,39 +29,39 @@ body {
 .popisek {
     text-align: center;
     margin-top: 4.5vw;
-    padding-right: 5vw;
-    font-size: 4em;
+    padding-right: 7vw;
+    font-size: 4vw;
     font-family: ChakraPetch-Italic;
     opacity: 65%;
     margin-bottom: 0;
 }
 #jmeno {
     text-align: center;
-    font-size: 7em;
+    font-size: 7.3vw;
     font-family: ChakraPetch-Bold;
 }
 #citat{
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3.5vw;
     margin-bottom: 0;
 }
 #autor-citatu {
     text-align: center;
     margin-top: 0;
     padding-top: 0;
-    font-size: 2em;
+    font-size: 2vw;
 }
 .page-layout {
     height: 100vh;
 }
 p {
     margin: 0.8em;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     text-align: center;
 }
 .nav-link, #btn-kontakt {
     color: #141E46;
-    font-size: 1.7em;
+    font-size: 1.7vw;
 }
 
 .navbar {
@@ -86,8 +86,8 @@ p {
     color: #141E46;
 }
 h2 {
-    margin-left: 0.15em;
-    font-size: 5em;
+    margin-left: 0.15vw;
+    font-size: 5vw;
     font-family: ChakraPetch-Italic;
     text-align: center;
 }
@@ -103,4 +103,15 @@ h2 {
     text-decoration:underline;
     text-decoration-color: #141E46;
     font-weight: 600;
+}
+@media only screen and (max-width: 800px) { /* Mobile layout */
+    .page-layout{
+        height: auto;
+    }
+    .popisek {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 8vw;
+    }
 }
